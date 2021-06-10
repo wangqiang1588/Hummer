@@ -6,8 +6,14 @@ import DemoItem from '@common/components/DemoItem';
 function App() {
   return (
     <PageItem title="Component Test">
-      <DemoItem title="CanScroll">
-        <text>Component List</text>
+      <DemoItem title="Base Plugin">
+        <ex-webview content="Webview Content"></ex-webview>
+      </DemoItem>
+      <DemoItem title="Base Plugin Custom Render">
+        <ex-popup content="Webview Content" default= {
+          <text>I am custom render content!</text>
+        }>
+        </ex-popup>
       </DemoItem>
     </PageItem>
   );

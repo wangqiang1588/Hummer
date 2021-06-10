@@ -1,3 +1,4 @@
+import React from 'react';
 import ReactReconciler from 'react-reconciler'
 import {document} from '@hummer/tenon-core'
 
